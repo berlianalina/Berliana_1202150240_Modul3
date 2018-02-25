@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- AndroidManifest.xml digunakan sebagai pengatur activity-activity yang terdapat pada aplikasi, berupa daftar kelas-kelas java, penggunaan intent untuk pemilihan, dan pemberian Label / title pada suatu Activity saat mereka Aktif-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.berliana_1202150240_modul3">
 
@@ -10,17 +11,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".Splashscreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Splashscreen" />
         <activity android:name=".DaftarMinuman" />
         <activity android:name=".DetailMinuman" />
-        <activity android:name=".MinumanAdapter" />
-        <activity android:name=".ItemMinuman" />
     </application>
 
 </manifest>
