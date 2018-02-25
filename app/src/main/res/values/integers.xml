@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- mengatur layout manager dari recyclerview jika menggunakan gridlayout
+    gridlayout adalah layout yang bentuknya sepasang atau seperti lemari
+    jumlah kolomnya berdasarkan pada integers.xml-->
+    <integer name="grid_column_count">1</integer>
+</resources>
